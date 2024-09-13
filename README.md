@@ -1,6 +1,9 @@
-# Fibonacci Number Checker
+# Test Project
 
-This project is a TypeScript application that checks if a given number is part of the Fibonacci sequence. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1.
+This project includes two TypeScript applications:
+
+1. **Fibonacci Number Checker**: Checks if a given number is part of the Fibonacci sequence.
+2. **Letter 'a' Counter**: Counts the occurrences of the letter 'a' (both uppercase and lowercase) in a given string.
 
 ## Project Setup
 
@@ -23,21 +26,36 @@ Make sure you have Node.js 20 installed. Then, install the required dependencies
 npm install
 ```
 
-### 3. Running the Application
+### 3. Running the Applications
 
-You can run the Fibonacci number checker script using the following npm command:
+You can run the applications using the following npm commands:
 
-```bash
-npm run fibonacci
-```
+- **Fibonacci Number Checker**:
+
+  ```bash
+  npm run fibonacci
+  ```
+
+  This will prompt you to enter a number to check if it is a Fibonacci number.
+
+- **Letter 'a' Counter**:
+
+  ```bash
+  npm run counter
+  ```
+
+  This will prompt you to enter a string to count the occurrences of the letter 'a'.
 
 ### 4. How It Works
 
-The application prompts you to enter a number via the command line. It then calculates if the number is part of the Fibonacci sequence and outputs the result.
+- **Fibonacci Number Checker**: The application calculates if the entered number is part of the Fibonacci sequence and outputs the result.
+
+- **Letter 'a' Counter**: The application counts and displays the number of occurrences of the letter 'a' in the input string.
 
 ### 5. Project Structure
 
-- **`src/fibonacci.ts`**: The TypeScript source file containing the logic for checking if a number is in the Fibonacci sequence.
+- **`src/fibonacci.ts`**: Contains the logic for checking if a number is in the Fibonacci sequence.
+- **`src/letterACounter.ts`**: Contains the logic for counting occurrences of the letter 'a' in a string.
 
 ### 6. Development
 
@@ -58,23 +76,39 @@ This project is licensed under the ISC License. See the [LICENSE](LICENSE) file 
 
 ## Example Usage
 
-When you run the application with `npm run fibonacci`, it will ask you to input a number:
+- **Fibonacci Number Checker**:
 
-```
-Enter a number to check if it is a Fibonacci number: 21
-```
+  When you run the application with `npm run fibonacci`, it will ask you to input a number:
 
-It will then output:
+  ```
+  Enter a number to check if it is a Fibonacci number: 21
+  ```
 
-```
-21 is a Fibonacci number.
-```
+  It will then output:
 
-If you input a number that is not in the sequence, the output will be:
+  ```
+  21 is a Fibonacci number.
+  ```
 
-```
-4 is NOT a Fibonacci number.
-```
+  If you input a number that is not in the sequence, the output will be:
+
+  ```
+  4 is NOT a Fibonacci number.
+  ```
+
+- **Letter 'a' Counter**:
+
+  When you run the application with `npm run counter`, it will ask you to input a string:
+
+  ```
+  Enter a string to check for the letter "a": Example string with multiple As.
+  ```
+
+  It will then output:
+
+  ```
+  The letter 'a' occurs 4 time(s) in the string.
+  ```
 
 ## Contact
 

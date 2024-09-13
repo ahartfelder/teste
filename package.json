@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "fibonacci": "ts-node src/fibonacci.ts"
+    "fibonacci": "ts-node src/fibonacci.ts",
+    "counter": "ts-node src/letterACounter.ts"
   },
   "license": "ISC",
   "devDependencies": {
